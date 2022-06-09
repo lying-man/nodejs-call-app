@@ -1,10 +1,10 @@
 
 const Pool = require("pg").Pool;
 const pool = new Pool({
-    user: "qoveryadmin",
-    host: "zdb1a7152-postgresql.z10146392.xms.sh",
-    database: "calldb",
-    password: "gsXfa1IhtLLn0qWYJWtGG9-oCrtchdbx",
+    user: "qchfsstd",
+    host: "postgres://qchfsstd:jM8LZJRsdCtSjkV3rVXEM4T8as9yVOgJ@abul.db.elephantsql.com/qchfsstd",
+    database: "qchfsstd",
+    password: "jM8LZJRsdCtSjkV3rVXEM4T8as9yVOgJ",
     port: 5432,
 });
 
