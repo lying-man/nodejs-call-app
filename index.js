@@ -17,4 +17,14 @@ app.use("/user", messagesRouter);
 app.use("/user", sendMessageRouter);
 app.use("/message", deleteMessage);
 
+app.get("/", (req, res) => {
+
+    let value = req.query.value;
+
+    value = value || "Not queries"
+
+    res.send(value);
+
+})
+
 app.listen(PORT, () => console.log("Server has been started"));
